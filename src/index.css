@@ -1,0 +1,76 @@
+body{
+  color: dimgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: auto;
+}
+.site-block{
+  margin: auto;
+  width: 50%;
+}
+#site-heading{
+  background-color: lightseagreen ;
+  text-align: center;
+  color: snow;
+  padding: 1%;
+}
+#list-heading{
+  background-color: #00CC99;
+  text-align: center;
+  color: snow;
+  padding: 1%;
+}
+.clientlist{
+  list-style-type: none;
+  padding: 0;
+}
+.client{
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding:1%;
+  display:inline-block;
+  margin: 1%;
+}
+.input{
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.btn.submit{
+  width: 50%;
+  display: inline-block;
+  border: none;
+  padding: 15px 32px;
+  margin-left: 25%;
+  margin-right: 25%;;
+  margin-top:1%;
+  background-color: limegreen;
+  color: white;
+}
+.btn.edit{
+  background-color: white;
+  padding: 4px 23px;
+  border: 1px solid gray;
+  margin: 1%;
+}
+.btn.delete{
+  background-color: tomato;
+  color: white;
+  border:none;
+  padding: 5px 23px;
+  margin: 1%;
+}
+.edit-cancel{
+  background-color: tomato;
+  color: white;
+  border:none;
+  padding: 5px 23px;
+  margin: 1%;
+}
+.edit-save{
+  background-color:limegreen;
+  color: white;
+  padding: 5px 23px;
+  border: none;
+  margin: 1%;
+}
